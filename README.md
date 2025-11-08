@@ -142,6 +142,7 @@ spring.datasource.password=postgres
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
+```
 
 ## Tables Summary
 
@@ -174,6 +175,7 @@ public interface FiliereClient {
     @GetMapping("/filieres/{id}")
     FiliereDto getFiliereById(@PathVariable Long id);
 }
+```
 
 - **JWT token** must be passed in the request header for authentication.
 
@@ -223,3 +225,4 @@ Use Auth Service /login to get JWT token.
 
 Include JWT token in headers for Student and Filier service requests.
 
+```

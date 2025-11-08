@@ -48,6 +48,7 @@ All services are independent with their own database but communicate via **OpenF
 
 ## Project Structure
 
+
 ```text
 microservices-project/
 ├── auth/
@@ -82,8 +83,7 @@ microservices-project/
 │   │   └── FilierApplication.java
 │   └── resources/
 
-
----
+```
 
 ## Services
 
